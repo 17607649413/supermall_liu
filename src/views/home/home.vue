@@ -6,6 +6,111 @@
     <HomeSwiper :banner="banner"></HomeSwiper>
     <Recommend :recommend="recommend"></Recommend>
     <fashion></fashion>
+
+    <tabController :items="['流行','新款','精选']"></tabController>
+
+    <ul>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+      <li>3333</li>
+    </ul>
   </div>
 </template>
 
@@ -15,7 +120,11 @@ import Navbar from "@/components/common/navbar/Navbar";
 import HomeSwiper from "@/views/home/childCommon/HomeSwiper";
 import Recommend from "@/views/home/childCommon/Recommend";
 import fashion from "@/views/home/childCommon/fashion";
+
+import tabController from "@/components/content/tabController/tabController";
 import {getHomeMultidata} from "@/nwtwork/home";
+import Tabbar from "@/components/common/tabbar/tabbar";
+import TabController from "@/components/content/tabController/tabController";
 
 export default {
   name: "home",
@@ -26,6 +135,8 @@ export default {
     }
   },
   components: {
+    TabController,
+    Tabbar,
     Navbar,
     HomeSwiper,
     Recommend,
