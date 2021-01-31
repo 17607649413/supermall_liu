@@ -6,7 +6,9 @@
 
 <script>
 export default {
-  name: "category"
+  name: "category",
+  created() {
+  }
 }
 </script>
 
